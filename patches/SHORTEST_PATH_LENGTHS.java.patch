@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+36c36
+<                             length_by_path.get(Arrays.asList(i,k)) + length_by_path.get(Arrays.asList(k,j)));
+---
+>                             length_by_path.get(Arrays.asList(i,k)) + length_by_path.get(Arrays.asList(j,k)));

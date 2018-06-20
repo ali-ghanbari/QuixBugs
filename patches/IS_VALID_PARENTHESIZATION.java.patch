@@ -1,0 +1,10 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+3d2
+< 
+25c24
+< 	return depth==0;
+---
+> 	return true;

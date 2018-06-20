@@ -1,0 +1,10 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+3d2
+< 
+28c27
+<         for (Integer x : arr.subList(k, arr.size())) {
+---
+>         for (Integer x : arr) {

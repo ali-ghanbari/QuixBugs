@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+35c35
+< 	otherwise.addAll(Collections.nCopies(digit_list.length-1, 0));
+---
+> 	otherwise.addAll(Collections.nCopies(digit_list.length, 0));

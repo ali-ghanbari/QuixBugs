@@ -1,0 +1,9 @@
+1,2c1
+< package correct_java_programs;
+< 
+---
+> package java_programs;
+16c15
+<         n = (n & (n - 1));
+---
+>         n = (n ^ (n - 1));

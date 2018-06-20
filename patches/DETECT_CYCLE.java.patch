@@ -1,0 +1,11 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+8,9d7
+< import java_programs.Node;
+< 
+20c18
+<             if (null==hare ||hare.getSuccessor() == null)
+---
+>             if (hare.getSuccessor() == null)

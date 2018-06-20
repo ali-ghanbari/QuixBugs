@@ -1,0 +1,10 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+4d3
+< 
+31c30
+<                 else if (weight <= j) {
+---
+>                 else if (weight < j) {

@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+41c41
+<             if (all(list_comp(n, primes))) {
+---
+>             if (any(list_comp(n, primes))) {

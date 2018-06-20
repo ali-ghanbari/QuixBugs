@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+17c17
+<         if (total < 0 ||coins.length==0) {
+---
+>         if (total < 0) {

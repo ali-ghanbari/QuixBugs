@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+27c27
+<             steps.add(new Pair<Integer,Integer>(start, end));
+---
+>             steps.add(new Pair<Integer,Integer>(start, helper));

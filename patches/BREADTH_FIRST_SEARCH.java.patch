@@ -1,0 +1,15 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+5,6d4
+< import java_programs.Node;
+< 
+26c24
+<         while (!queue.isEmpty()) {
+---
+>         while (true) {
+44c42
+<          return false;
+---
+>         // return false;

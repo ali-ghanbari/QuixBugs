@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+38c38
+<         if (arr.size() <= 1) { // <= 1 in correct version
+---
+>         if (arr.size() == 0) { // <= 1 in correct version

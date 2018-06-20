@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+34c34
+< 		c = bin_op.apply(b,a);
+---
+> 		c = bin_op.apply(a,b);

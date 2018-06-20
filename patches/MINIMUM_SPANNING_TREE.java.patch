@@ -1,0 +1,12 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+3,5d2
+< 
+< import java_programs.Node;
+< import java_programs.WeightedEdge;
+31c28
+<                     groupByNode.put(node,  groupByNode.get(vertex_u));
+---
+>                     groupByNode = update(groupByNode, node, vertex_u);

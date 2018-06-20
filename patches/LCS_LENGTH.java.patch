@@ -1,0 +1,15 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+3d2
+< 
+36,37c35
+<                 //	dp.get(i-1).containsKey(j-1)
+<                     if (dp.containsKey(i-1)&&dp.get(i-1).containsKey(j-1)) {
+---
+>                     if (dp.containsKey(i-1)) {
+39c37
+<                         int insert_value = dp.get(i-1).get(j-1) + 1;
+---
+>                         int insert_value = dp.get(i-1).get(j) + 1;

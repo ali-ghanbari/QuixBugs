@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+17c17
+<             return levenshtein(source.substring(1), target.substring(1));
+---
+>             return 1 + levenshtein(source.substring(1), target.substring(1));

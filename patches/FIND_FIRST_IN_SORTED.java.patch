@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+19c19
+<         while (lo < hi) {
+---
+>         while (lo <= hi) {

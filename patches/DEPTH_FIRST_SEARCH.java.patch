@@ -1,0 +1,13 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+8,9d7
+< import java_programs.Node;
+< 
+15c13
+<     public static boolean depth_first_search(Node startnode, Node goalnode) {
+---
+>     public boolean depth_first_search(Node startnode, Node goalnode) {
+24d21
+<                   	nodesvisited.add(node);

@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+22c22
+<         for (Integer count : counts) { 
+---
+>         for (Integer count : arr) { // arr is counts in fixed version

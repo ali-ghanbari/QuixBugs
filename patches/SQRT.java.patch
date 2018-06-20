@@ -1,0 +1,12 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+15,17c15,17
+<         double approx = x / 2d;
+<         while (Math.abs(x-approx*approx) > epsilon) {
+<             approx = 0.5d * (approx + x / approx);
+---
+>         double approx = x / 2f;
+>         while (Math.abs(x-approx) > epsilon) {
+>             approx = 0.5f * (approx + x / approx);

@@ -1,0 +1,14 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+3d2
+< 
+22c21
+<                     result.add((x));
+---
+>                     result.add(flatten(x));
+27c26
+< 	    return arr;
+---
+> 	    return flatten(arr);

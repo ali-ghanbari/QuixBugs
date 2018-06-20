@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+19c19
+<             return gcd(b, a%b);
+---
+>             return gcd(a % b, b);

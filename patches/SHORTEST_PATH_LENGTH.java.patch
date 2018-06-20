@@ -1,0 +1,23 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+4,5d3
+< import java_programs.Node;
+< 
+12c10
+<     public static int shortest_path_length(Map<List<Node>, Integer> length_by_edge, Node startnode, Node goalnode) {
+---
+>     public int shortest_path_length(Map<List<Node>, Integer> length_by_edge, Node startnode, Node goalnode) {
+19c17
+<      
+---
+> 
+40c38
+<                         distance + length_by_edge.get(Arrays.asList(node, nextnode))));
+---
+>                         unvisitedNodes.get(nextnode) + length_by_edge.get(Arrays.asList(node, nextnode))));
+47c45
+<     public static Node getNodeWithMinDistance(Map<Node,Integer> list) {
+---
+>     public Node getNodeWithMinDistance(Map<Node,Integer> list) {

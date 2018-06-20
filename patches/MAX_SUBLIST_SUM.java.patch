@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+19c19
+<             max_ending_here = Math.max(0,max_ending_here + x);
+---
+>             max_ending_here = max_ending_here + x;

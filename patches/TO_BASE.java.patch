@@ -1,0 +1,8 @@
+1c1
+< package correct_java_programs;
+---
+> package java_programs;
+21c21
+<             result = String.valueOf(alphabet.charAt(i))+result;
+---
+>             result = result + String.valueOf(alphabet.charAt(i));
